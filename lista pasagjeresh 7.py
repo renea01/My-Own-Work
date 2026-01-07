@@ -1,14 +1,14 @@
-# Lista fillestare
-pasagjeret_fillestare = ["Ana", "Leo", "Mira", "Ardi", "Renea", "Bora", "Elvira"]
+
+pasagjeret_fillestare = ["Ana", "Leo", "Miri", "Ardit", "Renea", "Jord", "Elvira"]
 file_name = "pasagjere.txt"
 
-# Funksion per ruajtje automatike
+
 def ruaj_ne_file(lista):
     with open(file_name, "w") as f:
         for p in lista:
             f.write(p + "\n")
 
-# Leximi nga file ose lista fillestare
+
 pasagjere = []
 
 try:
@@ -82,4 +82,5 @@ while True:
 
     else:
         print("Opsion i pavlefshëm.")
+
 
